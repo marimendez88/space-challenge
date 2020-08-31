@@ -1,0 +1,7 @@
+{
+  "name": "SpacePlayground",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
