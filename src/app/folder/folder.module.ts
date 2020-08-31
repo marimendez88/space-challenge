@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { FolderPageRoutingModule } from './folder-routing.module';
 
 import { FolderPage } from './folder.page';
+import { SpaceHeaderComponent } from '../components/space-header/space-header.component';
 
 
 @NgModule({
@@ -16,6 +17,6 @@ import { FolderPage } from './folder.page';
     IonicModule,
     FolderPageRoutingModule
   ],
-  declarations: [FolderPage]
+  declarations: [FolderPage, SpaceHeaderComponent]
 })
 export class FolderPageModule {}
